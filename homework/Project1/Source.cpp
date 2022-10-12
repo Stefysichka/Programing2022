@@ -18,7 +18,7 @@ int main()
 	cout << "geometric mean=" << geometricmean << endl;
 	\\Обчислити середнє арифметичне, середнє геометричне двох заданих натуральних чисел.
 
-
+return 0;
 
 
 
