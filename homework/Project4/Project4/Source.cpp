@@ -19,6 +19,7 @@ int main()
 	if (number == 10) cout << "October";
 	if (number == 11) cout << "November";
 	if (number == 12) cout << "December";
+	\\За введеним номером місяця року, вивести його назву
 	return 0;
 }
 
