@@ -13,6 +13,7 @@ int main()
 	int c;
 	c = 0 - number;
 	if (number < 0) cout << "F(x)="<<c<<endl;
+	\\За введеним дійсним числом x, обчислити y=f(x), де функція f(x) задана графіком (a)
 	
 	return 0;
 }
