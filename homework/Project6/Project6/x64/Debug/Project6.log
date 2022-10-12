@@ -1,3 +1,0 @@
-﻿  Source.cpp
-C:\Users\Stefania\source\repos\Programming-2022\homework\Project6\Project6\Source.cpp(11,9): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  Project6.vcxproj -> C:\Users\Stefania\source\repos\Programming-2022\homework\Project6\x64\Debug\Project6.exe
