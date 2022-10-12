@@ -18,7 +18,7 @@ int main()
 	if (difference1 >> difference2) cout << "NO, It's not arithmetic progression";
 	if (difference1 << difference2) cout << "NO, It's not arithmetic progression";
 	if (difference1 = difference2) cout << "Yes, It's arithmetic progression";
-	
+	\\Перевірити, чи введені три натуральні числа можуть бути послідовними членами деякої арифметичної  послідовності
 	return 0;
 
 
