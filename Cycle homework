@@ -1,0 +1,48 @@
+include <iostream>
+#include <string>
+#include <math.h>
+using namespace std;
+int main()
+{
+	//10.  а)Задано натуральне число , дійсні числа 
+	/*int n;
+	cout << "Enter n";
+	cin >> n;
+	float a, h, b;
+	cout << "Enter a";
+	cin >> a;
+	cout << "Enter h";
+	cin >> h;
+	cout << "Enter b";
+	cin >> b;
+	float d[100];
+	for (int i=0; i < n; i++)
+	{
+		cout << "Enter d";
+		cin >> d[i];
+	}
+	float sum=d[0];
+	for (int i = 0; i < n; i++) {
+		sum = sum+(b - a - h * (i - 1)) * d[i];
+	}
+	cout << "sum=" << sum;*/
+	
+	//Б) Задано натуральне число п. Отримати всі такі натуральні q, що п ділиться на  і не ділиться на .
+	int n;
+	n > 0;
+	cin >> n;
+	int q;
+	q =sqrt(n);
+	if ((n % q ^ 3 )!= 0)
+	{
+		cout<<q;
+	}
+	
+
+
+
+
+
+	return 0;
+
+}
