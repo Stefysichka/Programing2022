@@ -1,27 +1,64 @@
 #include <iostream>
 #include <string>
-#include <math.h>
 using namespace std;
-int main()
-{
-
-	cout << " write your 2 most favourite numbers" << endl;
-	int number1;
-	cin >> number1;
-	int number2;
-	cin >> number2;
-	int arithmeticmean;
-	arithmeticmean = (number1 + number2) / 2;
-	cout << "arithmetic mean=" << arithmeticmean << endl;
-	int geometricmean;
-	geometricmean = sqrt(number1 * number2);
-	cout << "geometric mean=" << geometricmean << endl;
-	\\Обчислити середнє арифметичне, середнє геометричне двох заданих натуральних чисел.
-
-return 0;
-
-
-
-
-
+class students {
+private:
+	string name;
+	string groupname;
+	int ID;
+public:
+	students():name(" "),groupname (" "),ID(0){}
+	students(string n,string g,int i):name(n),groupmate(g),ID(i){}
+	string GetName() {
+		return name;
+	}
+	string GetGroupname() {
+		return groupname;
+	}
+	int GetID() {
+		return ID;
+	}
+	void SetID(int new_ID) {
+		ID = new_ID;
+	}
+	void input() {
+		cout << "Enter name" << endl;
+		cin >> name;
+		cout << "Enter groupname" << endl;
+		cin >> groupname;
+		cout << "Enter ID" << endl;
+		cin >> ID;
+	}
+	void print() {
+		cout << "Name--" << name << endl;
+		cout << "Groupname--" << groupname << endl;
+		cout << "ID--" << ID << endl;
+	}
+};
+void main() {
+	students student1;
+	students student2("Stefania", "PMI11", 215367);
+	int n;
+	cout << "Enter numbers of students" << endl;
+	cin >> n;
+	students* array = new students[n];
+	array[0] = student1;
+	array[1] = student2;
+	for (int i = 2; i < n; ++i) {
+		array[i].input();
+	}
+	cout << "Enter name of students you want to see" << endl;
+	string name;
+	cin >> name;
+	for (int i = 0; i < n; ++i) {
+		if (array[i].GetName() == name) {
+			array[i].print();
+		}
+	}
+	for (int i = 0; i < n; ++i) {
+		if (array[i].GetName() == "Stefania") {
+			array[i].SetID(array[1].GetID());
+			array[i].print();
+		}
+	}
 }

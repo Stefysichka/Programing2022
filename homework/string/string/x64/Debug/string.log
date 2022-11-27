@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Programming2022aa\homework\string\string\Source.cpp(34,12): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  string.vcxproj -> C:\Programming2022aa\homework\string\x64\Debug\string.exe

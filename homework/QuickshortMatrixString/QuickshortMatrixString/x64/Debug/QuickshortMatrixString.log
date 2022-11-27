@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Programming2022aa\homework\QuickshortMatrixString\QuickshortMatrixString\Source.cpp(73,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Programming2022aa\homework\QuickshortMatrixString\QuickshortMatrixString\Source.cpp(81,9): error C2086: 'std::string fulltext': redefinition
+C:\Programming2022aa\homework\QuickshortMatrixString\QuickshortMatrixString\Source.cpp(79): message : see declaration of 'fulltext'
+C:\Programming2022aa\homework\QuickshortMatrixString\QuickshortMatrixString\Source.cpp(101,2): error C3861: 'QuickSort': identifier not found
