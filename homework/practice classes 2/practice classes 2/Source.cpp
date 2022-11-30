@@ -51,4 +51,5 @@ int main() {
 	 ifs.close();
 	 ofs.close();
 	 ofs << circle;
+	 return 0;
 }
