@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{56d757c2-f83c-45b3-b178-41c4ae5745e7}</ProjectGuid>
-    <RootNamespace>enum</RootNamespace>
+    <ProjectGuid>{529914d2-45c9-4551-a411-a6c2b45ec2f9}</ProjectGuid>
+    <RootNamespace>classesmodule</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
