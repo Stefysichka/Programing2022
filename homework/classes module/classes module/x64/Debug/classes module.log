@@ -1,10 +1,4 @@
 ﻿  Source.cpp
-C:\Programming2022aa\homework\classes module\classes module\Source.cpp(40,1): error C2601: 'isinteger': local function definitions are illegal
-C:\Programming2022aa\homework\classes module\classes module\Source.cpp(41,20): error C2065: 'a': undeclared identifier
-C:\Programming2022aa\homework\classes module\classes module\Source.cpp(41,28): error C2248: 'Line::b': cannot access private member declared in class 'Line'
-C:\Programming2022aa\homework\classes module\classes module\Source.cpp(14): message : see declaration of 'Line::b'
-C:\Programming2022aa\homework\classes module\classes module\Source.cpp(12): message : see declaration of 'Line'
-C:\Programming2022aa\homework\classes module\classes module\Source.cpp(41,37): error C2248: 'Line::a': cannot access private member declared in class 'Line'
-C:\Programming2022aa\homework\classes module\classes module\Source.cpp(14): message : see declaration of 'Line::a'
-C:\Programming2022aa\homework\classes module\classes module\Source.cpp(12): message : see declaration of 'Line'
-C:\Programming2022aa\homework\classes module\classes module\Source.cpp(41,42): error C2065: 'b': undeclared identifier
+C:\Programming2022aa\homework\classes module\classes module\Source.cpp(28,10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Programming2022aa\homework\classes module\classes module\Source.cpp(31,10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  classes module.vcxproj -> C:\Programming2022aa\homework\classes module\x64\Debug\classes module.exe

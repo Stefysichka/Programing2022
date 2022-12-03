@@ -12,6 +12,11 @@ using namespace std;
 //ax+by+c=0
 struct Point {
 double x, y;
+friend ostream& operator<<(ostream& os, Point point) {
+	os << "x: " << point.x << endl;
+	os << "y: " << point.y << endl;
+	return os;
+}
 	};
 class Line {
 private:
@@ -19,8 +24,19 @@ private:
 public:
 	Line() :a(0), b(0), c(0) {}
 	Line(const Line& p/*з неї робимо копію*/) :a(p.a), b(p.b), c(p.c) {}
+	float get_a() {
+		return a;
+	}
+	float get_b() {
+		return b;
+	}
 	friend istream& operator>>(istream& is, Line& line) {
-		is >> line.a >> line.b >> line.c;
+		cout << "Enter a" << endl;
+		is >> line.a;
+		cout << "Enter b" << endl;
+		is >> line.b;
+		cout << "Enter c" << endl;
+		is >> line.c;
 		return is;
 	}
 	friend ostream& operator<<(ostream& os, Line& line) {
@@ -85,14 +101,21 @@ int main() {
 	}
 	//скільки з них паралельні осі ОХ і скільки з них перетинаються з нею під прямим кутом
 	Line Ox(0, 1, 0);
-	int c1, c2 = 0;
+	int sum_prln = 0;
 	for (int i = 0; i < n; ++i) {
-		if (!array[i].isIntersept(Ox)) {
-			c1++;
+		if (array[i].get_a()==0) {
+			sum_prln++;
 		}
 		else {
 			// test
 		}
 	}
-
+	cout << "How many lines are paralelni to OX: " << sum_prln << endl;
+	int sum_90 = 0;
+	for (int i =0 ; i < n; ++i) {
+		if (array[i].get_b() == 0) {
+			sum_90++;
+		}
+	}
+	cout << "How many lines are perpendykylarni to OX: " << sum_90 << endl;
 }
