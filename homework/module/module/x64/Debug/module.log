@@ -1,2 +1,0 @@
-﻿Source1.obj : error LNK2005: main already defined in Source.obj
-C:\Users\Stefania\source\repos\Programming2022aa\homework\module\x64\Debug\module.exe : fatal error LNK1169: one or more multiply defined symbols found
