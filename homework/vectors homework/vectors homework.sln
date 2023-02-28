@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vectors homework", "vectors homework\vectors homework.vcxproj", "{0CBF8F2F-713E-46F8-B8F7-7C35C3885048}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CBF8F2F-713E-46F8-B8F7-7C35C3885048}.Debug|x64.ActiveCfg = Debug|x64
+		{0CBF8F2F-713E-46F8-B8F7-7C35C3885048}.Debug|x64.Build.0 = Debug|x64
+		{0CBF8F2F-713E-46F8-B8F7-7C35C3885048}.Debug|x86.ActiveCfg = Debug|Win32
+		{0CBF8F2F-713E-46F8-B8F7-7C35C3885048}.Debug|x86.Build.0 = Debug|Win32
+		{0CBF8F2F-713E-46F8-B8F7-7C35C3885048}.Release|x64.ActiveCfg = Release|x64
+		{0CBF8F2F-713E-46F8-B8F7-7C35C3885048}.Release|x64.Build.0 = Release|x64
+		{0CBF8F2F-713E-46F8-B8F7-7C35C3885048}.Release|x86.ActiveCfg = Release|Win32
+		{0CBF8F2F-713E-46F8-B8F7-7C35C3885048}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CC4A2DE-4256-471E-83B5-B9C60EE56FB8}
+	EndGlobalSection
+EndGlobal
