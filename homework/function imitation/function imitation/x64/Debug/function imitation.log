@@ -1,0 +1,2 @@
+﻿  Source.cpp
+C:\Programming2022aa\homework\function imitation\function imitation\Source.cpp(80): error C4703: potentially uninitialized local pointer variable 'temp' used

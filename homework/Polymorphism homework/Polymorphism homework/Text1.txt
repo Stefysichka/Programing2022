@@ -1,0 +1,3 @@
+iPhone Apple 1000.00 white 64
+Galaxy Samsung 800.00 black 32
+Pixel Google 600.00 blue 128
