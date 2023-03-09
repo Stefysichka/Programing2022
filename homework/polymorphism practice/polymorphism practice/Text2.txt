@@ -1,0 +1,18 @@
+Name: David
+ Author: Michelangelo
+ material: marble
+Name: The Thinker
+ Author: Rodin
+ material: bronze
+Name: Starry Night
+ Author: Vincent
+ size: 50
+ style: Impressionism
+Name: Water Lilies
+ Author: Monet
+ size: 60
+ style: Impressionism
+Name: The Kiss
+ Author: Klimt
+ size: 50
+ style: Art Nouveau
