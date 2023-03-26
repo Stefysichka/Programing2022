@@ -1,6 +1,0 @@
-﻿  Source.cpp
-D:\projects\Programming-2022\homework\Project1\Source.cpp(11,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-D:\projects\Programming-2022\homework\Project1\Source.cpp(14,20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-D:\projects\Programming-2022\homework\Project1\Source.cpp(17,63): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-D:\projects\Programming-2022\homework\Project1\Source.cpp(28,22): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-  Project1.vcxproj -> D:\projects\Programming-2022\homework\Project1\x64\Debug\Project1.exe

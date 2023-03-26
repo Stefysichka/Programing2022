@@ -1,0 +1,3 @@
+RadioPhone1 CompanyA 100.50 30 true
+RadioPhone2 CompanyB 85.20 20 false
+RadioPhone3 CompanyA 150.00 50 true

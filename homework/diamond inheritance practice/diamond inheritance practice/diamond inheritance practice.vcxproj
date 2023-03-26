@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2cfc60e2-0875-4abf-a55c-d14f908e21cc}</ProjectGuid>
-    <RootNamespace>Polymorphismhomework</RootNamespace>
+    <ProjectGuid>{01e1167a-1a38-43d5-ad3d-24e993833df6}</ProjectGuid>
+    <RootNamespace>diamondinheritancepractice</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -128,11 +128,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="Text1.txt" />
-    <Text Include="Text2.txt" />
-    <Text Include="Text3.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
