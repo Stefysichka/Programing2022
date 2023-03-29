@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2cfc60e2-0875-4abf-a55c-d14f908e21cc}</ProjectGuid>
-    <RootNamespace>Polymorphismhomework</RootNamespace>
+    <ProjectGuid>{d7f0eb90-58e3-4d26-9a9e-7d073d4828ed}</ProjectGuid>
+    <RootNamespace>templatefunctionshomework</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,11 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="Text1.txt" />
-    <Text Include="Text2.txt" />
+    <ClCompile Include="sort.cpp" />
+    <ClCompile Include="СlassGoods.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

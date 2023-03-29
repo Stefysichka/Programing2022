@@ -83,12 +83,12 @@ int main() {
 		rp->input(file2);
 		list.push_back(rp);
 	}
+	ofstream file3("Text3.txt"); // відкриваємо файл для запису
 	double total_price = 0;
-	for (int i = 0; i!=list.size();i++) {
-			total_price += list[i]->GetPrice();
+	for (int i = 0; i != list.size(); i++) {
+		total_price += list[i]->GetPrice();
+		file3 << "Total income is " << total_price << endl;
 	}
-	ofstream outfile3("Text3.txt"); // відкриваємо файл для запису
-	cout << "Total income is " << total_price << endl;
 	//сортування за ціною
 	sort(list.begin(), list.end(), [](Phone* a, Phone* b) {
 		return a->GetPrice() < b->GetPrice();
@@ -97,8 +97,8 @@ int main() {
 	for (int i = 0; i < list.size(); ++i) {
 		if (RadioPhone* rp = dynamic_cast<RadioPhone*>(list[i]))/*переводить в тип радіотелефон*/ {
 			if (rp->GetAnsweringMachine()) {
-				rp->output(outfile3);
-				outfile3 << endl;
+				rp->output(file3);
+			    file3 << endl;
 			}
 		}
 	}
