@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Programming2022aa\homework\tabulation classwork\tabulation classwork\Source.cpp(11,8): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Programming2022aa\homework\tabulation classwork\tabulation classwork\Source.cpp(12,19): warning C4552: '+': result of expression not used
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Programming2022aa\homework\tabulation classwork\x64\Debug\tabulation classwork.exe : fatal error LNK1120: 1 unresolved externals

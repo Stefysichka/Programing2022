@@ -1,3 +1,6 @@
 iPhone Apple 1000.00 white 64
 Galaxy Samsung 800.00 black 32
 Pixel Google 600.00 blue 128
+RadioPhone1 CompanyA 100.50 30 true
+RadioPhone2 CompanyB 85.20 20 false
+RadioPhone3 CompanyA 150.00 50 true
