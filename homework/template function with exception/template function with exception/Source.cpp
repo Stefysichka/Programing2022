@@ -5,7 +5,7 @@ template <typename T>
 void sort(T a[], int n, int i) {
     if (n < i) {
         throw "Insufficient elements in the array for sorting!";//недостатньо елементів для масиву
-    }    
+    }
     for (int j = 0; j < i; j++) {
         for (int k = j + i; k < i; k++) {
             if (a[j] > a[k]) {
@@ -18,7 +18,7 @@ void sort(T a[], int n, int i) {
 }
 int main() {
     const int n = 5;
-    double a1[n]= {3.2, 4.4, 3, 5.1, 48.3};
+    double a1[n] = { 3.2, 4.4, 3, 5.1, 48.3 };
     string a2[n] = { "hello","Stefik","Name","cat","dog" };
     try {
         sort(a1, n, 3);

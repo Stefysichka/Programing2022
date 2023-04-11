@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1879c809-6f95-49ba-9c81-6d23c3ed5c81}</ProjectGuid>
-    <RootNamespace>templatefunctionhomework</RootNamespace>
+    <ProjectGuid>{796b53c0-6fa6-4ad6-8ed1-d1c4443b0cc3}</ProjectGuid>
+    <RootNamespace>templatefunctionwithexception</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
