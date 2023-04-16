@@ -1,10 +1,11 @@
 ﻿#include <iostream>
 #include <string>
+#include <stdexcept>
 using namespace std;
 template <typename T>
 void sort(T a[], int n, int i) {
     if (n < i) {
-        throw "Insufficient elements in the array for sorting!";//недостатньо елементів для масиву
+        throw "Insufficient elements in the array for sorting!";
     }
     for (int j = 0; j < i; j++) {
         for (int k = j + i; k < i; k++) {
@@ -17,9 +18,28 @@ void sort(T a[], int n, int i) {
     }
 }
 int main() {
-    const int n = 5;
-    double a1[n] = { 3.2, 4.4, 3, 5.1, 48.3 };
-    string a2[n] = { "hello","Stefik","Name","cat","dog" };
+    int n;
+    cout << "Enter numbers of array" << endl;
+    cin >> n;
+    double*a1 =  new double [n];
+    string* a2 = new string[n];
+    cout << "Enter double elements" << endl;
+    try {
+        for (int i = 0; i < n; i++) {
+            cin >> a1[i];
+            if (cin.fail()) {
+                throw invalid_argument("Invalid input: expected double but got string!");
+            }
+        }
+    }
+    catch (const invalid_argument& e) {
+        cout << e.what() << endl;
+        return 1;
+    }
+    cout << "Enter string elements" << endl;
+        for (int i = 0; i < n; i++) {
+            cin >> a2[i];
+        }
     try {
         sort(a1, n, 3);
         for (int i = 0; i < n; ++i) {
@@ -34,6 +54,9 @@ int main() {
     }
     catch (const char* e) {
         cout << e << endl;
+        return 1;
     }
+    delete[]a1;
+    delete[]a2;
     return 0;
 }

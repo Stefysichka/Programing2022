@@ -1,0 +1,3 @@
+Sonia 4 200.75
+Stefik 3 150.5
+Marta 2 100

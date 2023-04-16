@@ -1,0 +1,5 @@
+Diana 90
+Nastya 85
+Yulia 75.5
+Uliana 70.5
+Maria 60.25

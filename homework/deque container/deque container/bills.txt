@@ -1,0 +1,9 @@
+gas Stefik 3 150.50
+gas Marta 2 100.00
+gas Sonia 4 200.75
+water Yulia 1000 13.5 75.50
+water Maria 900 8.2 60.25
+water Nastya 1300 12.0 85.00
+water Uliana 800 10.5 70.50
+water Lesia 900 8.2 59.25
+water Diana 1100 11.0 90.00
