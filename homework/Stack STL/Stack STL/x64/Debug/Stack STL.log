@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Programming2022aa\homework\Stack STL\Stack STL\Source.cpp(34,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Programming2022aa\homework\Stack STL\Stack STL\Source.cpp(66,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  Stack STL.vcxproj -> C:\Programming2022aa\homework\Stack STL\x64\Debug\Stack STL.exe
