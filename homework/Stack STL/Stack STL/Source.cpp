@@ -30,7 +30,7 @@ public:
     bool isEmpty() {
         return cards.empty();
     }
-    int size() {
+    size_t size() {
         return cards.size();
     }
     Card deal() {
@@ -62,7 +62,7 @@ public:
         pile.push(playCard());
         pile.push(playCard());
     }
-    int getNumCards() {
+    size_t getNumCards() {
         return cards.size();
     }
     bool CanPlay() {
@@ -75,7 +75,7 @@ int main() {
     deck.makeDeck();
     Player player1, player2;
     int numRounds = 0;
-    if(player1.CanPlay()&&player2.CanPlay()){
+    if (player1.CanPlay() && player2.CanPlay()) {
         while (!deck.isEmpty()) {
             numRounds++;
             Card card1 = deck.deal();
@@ -140,7 +140,7 @@ int main() {
                         Card card4 = player2.playCard();
                         pile.push(card3);
                         pile.push(card4);
-                        cout << "Player 1's war card is: " ;
+                        cout << "Player 1's war card is: ";
                         switch (card3.getValue()) {
                         case 11:
                             cout << "Jack" << endl;
@@ -211,5 +211,5 @@ int main() {
     else {
         cout << "Player 2 wins the game" << endl;
     }
-   
+
 }

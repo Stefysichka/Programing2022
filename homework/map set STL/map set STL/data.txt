@@ -1,0 +1,13 @@
+BOOK
+J.K. Rowling
+Harry Potter and the Philosopher's Stone
+1997
+ARTICLE
+Albert Einstein
+On the Electrodynamics of Moving Bodies
+Annalen der Physik, 1905
+1905
+BOOK
+Harper Lee
+To Kill a Mockingbird
+1960

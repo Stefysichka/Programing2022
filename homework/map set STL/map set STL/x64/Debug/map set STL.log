@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\algoritms\map set STL\map set STL\Source.cpp(28,36): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  map set STL.vcxproj -> C:\algoritms\map set STL\x64\Debug\map set STL.exe

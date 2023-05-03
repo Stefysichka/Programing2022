@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stack STL", "Stack STL\Stack STL.vcxproj", "{DC13DF8B-4C2B-4CE1-9F83-7FEB911D05D9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stack stl", "Stack stl\Stack stl.vcxproj", "{6FE2806C-B63C-4032-81E3-6DD256457C68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,19 +13,19 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DC13DF8B-4C2B-4CE1-9F83-7FEB911D05D9}.Debug|x64.ActiveCfg = Debug|x64
-		{DC13DF8B-4C2B-4CE1-9F83-7FEB911D05D9}.Debug|x64.Build.0 = Debug|x64
-		{DC13DF8B-4C2B-4CE1-9F83-7FEB911D05D9}.Debug|x86.ActiveCfg = Debug|Win32
-		{DC13DF8B-4C2B-4CE1-9F83-7FEB911D05D9}.Debug|x86.Build.0 = Debug|Win32
-		{DC13DF8B-4C2B-4CE1-9F83-7FEB911D05D9}.Release|x64.ActiveCfg = Release|x64
-		{DC13DF8B-4C2B-4CE1-9F83-7FEB911D05D9}.Release|x64.Build.0 = Release|x64
-		{DC13DF8B-4C2B-4CE1-9F83-7FEB911D05D9}.Release|x86.ActiveCfg = Release|Win32
-		{DC13DF8B-4C2B-4CE1-9F83-7FEB911D05D9}.Release|x86.Build.0 = Release|Win32
+		{6FE2806C-B63C-4032-81E3-6DD256457C68}.Debug|x64.ActiveCfg = Debug|x64
+		{6FE2806C-B63C-4032-81E3-6DD256457C68}.Debug|x64.Build.0 = Debug|x64
+		{6FE2806C-B63C-4032-81E3-6DD256457C68}.Debug|x86.ActiveCfg = Debug|Win32
+		{6FE2806C-B63C-4032-81E3-6DD256457C68}.Debug|x86.Build.0 = Debug|Win32
+		{6FE2806C-B63C-4032-81E3-6DD256457C68}.Release|x64.ActiveCfg = Release|x64
+		{6FE2806C-B63C-4032-81E3-6DD256457C68}.Release|x64.Build.0 = Release|x64
+		{6FE2806C-B63C-4032-81E3-6DD256457C68}.Release|x86.ActiveCfg = Release|Win32
+		{6FE2806C-B63C-4032-81E3-6DD256457C68}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C3AB4999-8321-4997-AB6A-7079BBAF3C73}
+		SolutionGuid = {A22EC970-6883-4763-B990-52F745B2B066}
 	EndGlobalSection
 EndGlobal
